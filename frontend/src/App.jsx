@@ -50,7 +50,7 @@ function App() {
     <input type="text" name="username" onChange={(handleForm)} /><br></br>
 
     <label htmlFor="">Password</label>
-    <input type="text" name="password" onChange={(handleForm)} /><br></br>
+    <input type="password" name="password" onChange={(handleForm)} /><br></br>
 
     <button type='submit'>Log In</button>
   </form>
